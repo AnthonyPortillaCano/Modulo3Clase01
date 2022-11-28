@@ -1,0 +1,67 @@
+﻿@model Datos.Modelos.Usuario
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div>
+    @ViewBag.MensajeError
+</div>
+<h4>Usuario</h4>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" id="txtEmail" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Clave" class="control-label"></label>
+                <input asp-for="Clave" class="form-control" id="txtClave" />
+                <span asp-validation-for="Clave" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"  />
+            </div>
+        </form>
+          
+  
+    </div>
+</div>
+
+<div>
+    <a asp-action="StartRecovery" asp-controller="Seguridad">Olvidaste tu clave</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+        @*<script>
+            $("#btnLogin").click(function()
+           {
+            var usuarioBody = {
+
+                Email: $("#txtEmail").val(),
+                Clave: $("#txtClave").val(),
+              
+            }
+            $.ajax({
+                url: '@Url.Action("Login","Seguridad")',
+                method: "POST",
+                data: JSON.stringify(usuarioBody),
+                datatype: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    if (data) {
+                        window.location.replace(urlRetornar);
+                        //  location.reload();
+                    }
+                }
+            })
+           });
+
+        </script>*@
+
+}

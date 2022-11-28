@@ -1,0 +1,14 @@
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\bin\Debug\net6.0\Datos.deps.json
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\bin\Debug\net6.0\Datos.runtimeconfig.json
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\bin\Debug\net6.0\Datos.dll
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\bin\Debug\net6.0\Datos.pdb
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\Datos.csproj.AssemblyReference.cache
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\Datos.AssemblyInfoInputs.cache
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\Datos.AssemblyInfo.cs
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\Datos.csproj.CoreCompileInputs.cache
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\Datos.dll
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\refint\Datos.dll
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\Datos.pdb
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\Datos.genruntimeconfig.cache
+D:\CursoNet6WebDeveloperModulo2y3\Modulo3\Clase01\Demo\SolucionTaller\Datos\obj\Debug\net6.0\ref\Datos.dll

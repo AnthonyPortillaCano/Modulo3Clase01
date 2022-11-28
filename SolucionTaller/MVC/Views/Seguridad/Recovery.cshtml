@@ -1,0 +1,28 @@
+﻿@model Datos.Modelos.ViewModel.RecoveryPasswordViewModel
+@{
+    ViewData["Title"] = "Recovery";
+}
+
+<h1>Recovery</h1>
+<div class="row">
+    <div class="col-md-6 offset-3">
+        <div class="form-style">
+            <form action="@Url.Content("~/Seguridad/Recovery")" method="post">
+                @Html.HiddenFor(d=>d.Token)
+                <label>Escribe tu nueva contraseña</label>
+                @Html.PasswordFor(d=>d.Clave,new {@class="form-control"})
+                @Html.ValidationMessageFor(d=>d.Clave,null,new {style="color:red;"})
+                <label>Vuelve a escribir la contraseña</label>
+                @Html.PasswordFor(d=>d.Clave2,new {@class="form-control"})
+                @Html.ValidationMessageFor(d=>d.Clave2,null,new {style="color:red;"})
+                <br />
+                <div class="text-primary">
+                    <button class="btn btn-primary">Recuperar</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,23 @@
+﻿@model Datos.Modelos.ViewModel.RecoveryViewModel
+@{
+    ViewData["Title"] = "StartRecovery";
+}
+<div class="row">
+      <div class="col-md-6 offset-3">
+             <div class="form-style">
+            <form action="@Url.Content("~/Seguridad/StartRecovery")" method="post">
+                <label>Escribe tu correo electronico</label>
+                @Html.TextBoxFor(d=>d.Email,null,new {@class="form-control"})
+                @Html.ValidationMessageFor(d=>d.Email,null,new {style="color:red;"})
+                <br/>
+                <div class="text-primary">
+                        <button class="btn btn-primary">Recuperar</button>
+                </div>
+            </form>
+
+             </div>
+
+      </div>
+
+</div>
+
